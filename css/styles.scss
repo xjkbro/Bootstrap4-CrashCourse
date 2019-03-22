@@ -1,4 +1,13 @@
-$bg-color: red;
-body{
-    background: $bg-color;
+//Variable Overrides
+$theme-colors: (
+    "primary": coral,
+    "secondary": cyan
+);
+$body-bg: #333;
+$body-color: #333;
+
+//Bootstrap Sass Files
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
 }
